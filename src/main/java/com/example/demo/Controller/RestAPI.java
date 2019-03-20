@@ -38,15 +38,15 @@ public String mysqlfiller(){
 //    classesInterface.save(ITO);
 
 
-//    List<Classes> fromdatabase= (List<Classes>) classesInterface.findAll();
-//    Teacher shadush= new Teacher("kristoffer",20,"tech expert",fromdatabase);
-//    Teacher cay= new Teacher("cay",45,"phd in computer science",fromdatabase);
-//    Teacher tom= new Teacher("tom",51,"quantum guy",fromdatabase);
-//    Teacher alex= new Teacher("alex",35,"it guy",fromdatabase);
-//    teacherRepository.save(shadush);
-//    teacherRepository.save(cay);
-//    teacherRepository.save(tom);
-//    teacherRepository.save(alex);
+    List<Classes> fromdatabase= (List<Classes>) classesInterface.findAll();
+    Teacher shadush= new Teacher("kristoffer",20,"tech expert",fromdatabase);
+    Teacher cay= new Teacher("cay",45,"phd in computer science",fromdatabase);
+    Teacher tom= new Teacher("tom",51,"quantum guy",fromdatabase);
+    Teacher alex= new Teacher("alex",35,"it guy",fromdatabase);
+    teacherRepository.save(shadush);
+    teacherRepository.save(cay);
+    teacherRepository.save(tom);
+    teacherRepository.save(alex);
 
 
 
